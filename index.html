@@ -8,19 +8,33 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style type="text/css">
-		.container {
+		.red {
 			background-color: red;
 		}
-		.container-fluid {
-			background-color: lightblue;
+		.blue {
+			background-color: blue;
+		}
+		.row {
+			background-color: white;
 		}
 
 	</style>
 </head>
 <body>
 
-<div class="container">Contenitore fisso</div>
-<div class="container-fluid">Contenitore fluido</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6 red">A</div>
+		<div class="col-lg-6 blue">A</div>
+
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 blue">B</div>
+		<div class="col-lg-6 red">B</div>
+	</div>
+</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
