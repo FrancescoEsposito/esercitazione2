@@ -30,7 +30,7 @@ body {
       }
 
 .navbar-inverse .navbar-brand {
-      font-size: 19px;
+      font-size: 20px;
       color: white;
       font-weight: bold;
       }
@@ -165,6 +165,10 @@ iframe {
       }
 
 @media screen and (max-width: 480px){
+	.navbar-inverse .navbar-brand {
+      font-size: 17px;
+      font-weight: bold;
+      }
 	.blocco p {
       font-size: 22px;
       }
