@@ -163,3 +163,19 @@ footer {
 iframe {
       margin-top: 3.2%;
       }
+
+@media screen and (max-width: 480px){
+	.blocco p {
+      font-size: 22px;
+      }
+    .testo .img {
+      margin-top: 8%;
+      }
+    footer {
+      margin-top: 5%;
+      }
+    .social img {
+      margin-bottom: 6%;
+      margin-top: 3%;
+      }
+}
